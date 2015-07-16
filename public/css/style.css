@@ -1,0 +1,45 @@
+
+
+.wrap{
+	margin: 30px;
+}
+.result{
+	margin: 20px 0px;
+  min-width: 200px;
+  width: 50%;
+}
+.none{
+	display: none;
+}
+.etick{
+    width: 10%;
+    float: left;
+    background-color: #eee;
+    padding: 7px;
+    text-align: center;
+}
+.content{
+	width: 90%;
+	padding: 7px;
+	margin-left: 10%;
+}
+.highlight {
+  margin-bottom: 14px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 4px;
+}
+.right{
+	float: right;
+  margin-right: 5%;
+}
+.claer{
+  clear:both;
+}
+.box {
+  margin-top: 1em;
+}
+textarea{
+  width: 90%;
+  height: 400px;
+}

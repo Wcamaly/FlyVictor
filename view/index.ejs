@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Diff</title>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  	<script type="text/javascript" src="js/application.js"></script>
+  	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div id="wrap" class="wrap">
+		<h1>Task FlyVictor</h1>
+
+
+		<ul id="nav" class="nav nav-tabs">
+		  <li class="active"><a data="textarea">Text</a></li>
+		  <li><a data="adfiles">Files</a></li>
+		  
+		</ul>
+		<div class="box">
+
+			<div class="row none" id="adfiles">
+			  <div class="col-xs-6">
+			  	<input type="file" id="file1" data="text1"/>
+				
+			  </div>
+			  <div class="col-xs-6">
+			  	<input type="file" id="file2" data="text2"/>
+			  </div>
+			</div>
+			<div class="row actives" id="textarea">
+			  <div class="col-xs-6">
+			  	<textarea  id="textarea1" class="highlight"></textarea>
+					   
+			  </div>
+			  <div class="col-xs-6">
+			  	<textarea  id="textarea2" class="highlight"></textarea>
+			</div>
+		</div>
+
+
+		<div class="clear">&nbsp;</div>
+
+		<button class="btn btn-default btn-lg right" id="button">Compare</button>
+		<div class="clear">&nbsp;</div>
+
+		<div class="row result highlight none" id="result">
+			
+		</div>
+	</div>
+
+	<div id="template" class="none">
+		<span class="etick"></span>
+		<div class="content"></div>
+	</div>
+
+</body>
+</html>
